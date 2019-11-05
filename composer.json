@@ -13,12 +13,10 @@
 			"role" : "Provocateur"
 		}
 	],
-	"minimum-stability": "dev",
-    "require": {
-        "php": ">=5.4.0"
-    },
+	"minimum-stability": "stable",
+    "require": {},
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "Payments": "src/"
         }
     }
