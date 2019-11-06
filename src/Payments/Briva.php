@@ -36,7 +36,7 @@ class Briva
 		return $result;
 	}
 
-	public function payload($path, $verb, $token, $timestamp, $body)
+	public static function payload($path, $verb, $token, $timestamp, $body)
 	{
 		$array = [
 			'path' => $path,
