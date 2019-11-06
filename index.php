@@ -6,17 +6,19 @@ use Payments\Briva;
 
 // echo Briva::information();
 
+$config = parse_ini_file('config.ini');
+
 // set id key
-Briva::$id_key = "";
+Briva::$id_key = $config['id_key'];
 
 // set secret key
-Briva::$secret_key = "";
+Briva::$secret_key = $config['secret_key'];
 
 // set institution code
-Briva::$institution_code = "";
+Briva::$institution_code = $config['institution_code'];
 
 // set briva no
-Briva::$briva_no = "";
+Briva::$briva_no = $config['briva_no'];
 
 // set url
 Briva::$url = "https://sandbox.partner.api.bri.co.id";
