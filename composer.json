@@ -1,28 +1,23 @@
 {
-	"name" : "sirostuff/briva",
-	"type" : "library",
-	"description" : "BRI Virtual Account Bridging",
-	"keywords" : ["briva","payment","va"],
-	"homepage" : "https://teknisikode.web.id",
-	"license" : "MIT",
-	"authors" : [
-		{
-			"name" : "Ahmad Sirojul Miftakh",
-			"email" : "sirojulmiftakh@gmail.com",
-			"homepage" : "https://linkedin.com/in/sirojulmiftakh",
-			"role" : "Provocateur"
-		}
-	],
-	"minimum-stability": "dev",
-	"require":
-	{
-		"php": ">=5.4.0"
-	},
-	"autoload":
-	{
-		"psr-0":
-		{
-			"Payments": "src/"
-		}
-	}
+    "name": "sirostuff/briva",
+    "type": "library",
+    "description": "BRI Virtual Account Bridging",
+    "keywords": ["briva", "payment", "va"],
+    "homepage": "https://teknisikode.web.id",
+    "license": "MIT",
+    "authors": [{
+        "name": "Ahmad Sirojul Miftakh",
+        "email": "sirojulmiftakh@gmail.com",
+        "homepage": "https://linkedin.com/in/sirojulmiftakh",
+        "role": "Provocateur"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Payments": "src/"
+        }
+    }
 }
